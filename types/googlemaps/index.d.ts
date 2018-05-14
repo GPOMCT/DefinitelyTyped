@@ -569,6 +569,7 @@ declare namespace google.maps {
     }
 
     export interface MarkerOptions {
+        id?:number;
         /**
          * The offset from the marker's position to the tip of an InfoWindow
          * that has been opened with the marker as anchor.
